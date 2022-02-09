@@ -1,0 +1,85 @@
+.tweetAvatar{
+  height: 55px !important;
+  width: 55px !important;
+}
+.tweetCardContainer{
+  background-color: white;
+  border-top: 1px solid rgba(15,70,100,.12);
+  padding: 5px;
+  display: flex;
+  flex-direction: row;
+}
+.tweetCardContainer:hover{
+  background-color: #F5F8FA;
+}
+.tweetCardTextContainer{
+  width: 100%;
+}
+
+.spacer{
+  margin: 0px 3px;
+}
+.verifiedIcon{
+  color: #1DA1F2;
+}
+h6{
+  color:#657786;
+}
+.tweetNameSpace{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  margin-top: 15px;
+}
+.tweetNameSpace h6:first-child{
+ color: black; 
+ font-weight: bold;
+}
+.tweetNameSpace h6:nth-child(n+1):nth-child(n+2){
+  font-size: 0.9rem;
+ }
+ .tweetNameSpace h6:nth-child(2){
+  
+  margin-right: 2px;
+ }
+
+.tweetCardSocialIcons{
+  display: flex;
+}
+.socialIcons{
+  color: #657786;
+  margin: 10px 30px 0px 0px;
+}
+.heart{
+  color: red;
+  margin: 10px 30px 0px 0px;
+}
+.socialIcons:hover{
+  color: #1DA1F2;
+}
+.tweetCardAvatar{
+  height: 100%;
+  width: 65px !important;
+}
+.textSpaceWrapper{
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+}
+.modelClose{
+  color: red;
+}
+
+.modalInput{
+  width: 80% !important;
+  border: none;
+  resize: none;
+  margin: auto auto;
+}
+.modalInput:focus{
+  outline: none;
+}
+input[type="text"] {
+  display: inline-block;
+  width: 100%;
+}

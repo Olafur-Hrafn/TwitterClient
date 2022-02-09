@@ -1,0 +1,103 @@
+a {
+  margin: 15px 0px;
+}
+
+#navContainer {
+  height: 95vh;
+  display: flex;
+  align-items: flex-start;
+}
+.navigationList {
+  color: white;
+  list-style: none;
+  margin: 30px 0px 20px 10px !important;
+}
+.navigationListItem {
+  color: black;
+  text-decoration-line: none;
+  display: flex;
+  font-size: 1.4rem;
+  font-weight: 700;
+}
+.twitterlogo {
+  font-size: 2rem;
+  color: #1da1f2;
+  margin-bottom: 30px;
+  transition: transform 0.8s ease-in-out;
+}
+
+.twitterlogo:hover {
+  transform: rotate(10deg);
+  color: royalblue;
+}
+.navIcon {
+  position: relative;
+  bottom: 3px;
+  margin-right: 10px;
+}
+.navButton {
+  border-radius: 30px !important;
+  width: 70% !important;
+
+  font-size: 1.3rem;
+  text-align: center;
+}
+.navButtonIcon {
+  display: none;
+}
+.navUserCardContainer {
+  display: flex;
+  margin-top: 50px !important;
+}
+
+#navAvatar {
+  height: 55px;
+  width: 55px;
+  margin: 0px 10px 0px 0px;
+}
+.navUserText {
+  text-align: start;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 0.8rem;
+}
+p {
+  margin: 0px !important;
+}
+
+@media (min-width: 300px) and (max-width: 996px) {
+  .navItemText {
+    display: none;
+  }
+  .navButton {
+    border-radius: 50px !important;
+    font-size: 0px !important;
+    width: 40px !important;
+    height: 40px !important;
+    padding: 8px !important;
+    margin-left: 15px;
+  }
+  .navButtonIcon {
+    display: block;
+    font-size: 1.4rem !important;
+  }
+  .navUserText {
+    display: none;
+  }
+  .navUserCardContainer {
+    padding: 0px !important;
+  }
+  .navigationListItem {
+    font-size: 1.6rem;
+  }
+}
+/*
+@media (min-width: 30em) and (max-width: 50em) { 
+  .text{
+    color:blueviolet;
+  }
+  .text2{
+    visibility: hidden;
+  }
+ }*/

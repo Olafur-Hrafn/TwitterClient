@@ -1,0 +1,71 @@
+.image {
+  width: 55px;
+  height: 55px;
+}
+.relevantCard {
+  margin: 20px;
+  border: 1px solid;
+  border-radius: 10px;
+  display: flex;
+  padding: 10px;
+  align-content: center;
+  flex-direction: row;
+}
+.trendCard {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  border-top: 1px solid black;
+  padding: 5px;
+  background-color: #f5f8fa;
+}
+.trendCard p:nth-child(2) {
+  font-weight: bold;
+}
+.trendCard:hover {
+  background-color: #e1e8ed;
+}
+.trendsContainer {
+  border: 1px solid black;
+  margin-top: 20px;
+  margin-left: 25px;
+  border-radius: 3%;
+  background-color: #f5f8fa;
+}
+.headerText {
+  display: flex;
+  flex-direction: row;
+  padding: 0px 10px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+h5 {
+  color: black;
+  padding: 5px;
+  font-weight: bold;
+  margin-bottom: 0px;
+}
+.rightSidecontainer {
+  max-width: 80%;
+  position: sticky !important;
+  top: 0 !important;
+}
+.searchBarContainer {
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+}
+.searchBar {
+  width: 80%;
+  border-radius: 25px;
+  background-color: #f5f8fa;
+  color: #aab8c2;
+  text-align: center;
+}
+
+@media (min-width: 300px) and (max-width: 796px) {
+  .rightSidecontainer {
+    display: none;
+  }
+}
